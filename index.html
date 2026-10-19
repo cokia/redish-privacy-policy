@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redish 개인정보 처리방침 · Privacy Policy</title>
+<meta name="description" content="Redish Redis·Valkey 클라이언트의 데이터 전송, 기기 내 저장 및 삭제에 관한 개인정보 처리방침.">
+<link rel="canonical" href="https://cokia.github.io/redish-privacy-policy/">
+<style>
+:root{color-scheme:light dark;--bg:#111318;--surface:#191c23;--text:#f0f1f5;--muted:#b6bdcb;--line:#343a47;--accent:#ff8797}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--accent);text-underline-offset:4px}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}header,main,footer{max-width:820px;margin:auto;padding:28px 24px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}.brand{font-size:22px;font-weight:750;letter-spacing:-.5px;color:var(--text);text-decoration:none}.brand span{color:var(--accent)}nav{display:flex;gap:18px;font-size:14px}h1{font-size:clamp(30px,6vw,44px);line-height:1.25;letter-spacing:-1px;margin:18px 0}h2{font-size:21px;margin:36px 0 10px}p,ul{margin:12px 0}li{margin:8px 0}.meta{font-size:14px;color:var(--muted)}.intro{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;margin:28px 0}section{scroll-margin-top:24px}hr{border:0;border-top:1px solid var(--line);margin:48px 0}footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-bottom:48px}code{font-size:.9em} @media(prefers-color-scheme:light){:root{--bg:#fafafa;--surface:#fff;--text:#20232b;--muted:#596273;--line:#dedfe5;--accent:#b92440}} @media(max-width:480px){header,main,footer{padding-left:20px;padding-right:20px}header{align-items:flex-start;gap:12px}nav{gap:12px}.intro{padding:18px}} @media print{body{background:white;color:black}nav{display:none}a{color:inherit}header,main,footer{max-width:none}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="#ko">Redish<span>.</span></a><nav aria-label="Language"><a href="#ko" lang="ko">한국어</a><a href="#en" lang="en">English</a></nav></header>
+<main>
+<section id="ko" lang="ko">
+<p class="meta">개인정보 처리방침 · 적용일 2026년 10월 19일 · 앱 버전 0.1</p>
+<h1>내 서버에 연결하고,<br>내 데이터를 관리합니다.</h1>
+<div class="intro"><strong>Redish는 사용자가 지정한 Redis 또는 Valkey 서버에 직접 연결하는 클라이언트입니다.</strong><p>앱에는 Redish 회원가입, 광고 SDK, 분석 SDK 또는 개발자 서버로 전송하는 진단 수집 기능이 없습니다. 서버 연결에 필요한 정보와 사용자가 실행한 명령·데이터는 사용자가 지정한 서버로 전송됩니다.</p></div>
+<h2>1. 적용 범위 및 문의</h2>
+<p>이 방침은 Redish iOS·Android 앱 및 이 정책 페이지에 적용됩니다. Redish의 개인정보 관련 문의, 열람·삭제 요청 및 지원 연락처는 <a href="mailto:hanu@han-q.io">hanu@han-q.io</a>입니다.</p>
+<h2>2. 기기에 저장하거나 메모리에서 처리하는 정보</h2>
+<ul><li><strong>연결 프로필:</strong> 서버 이름·주소·포트·데이터베이스 번호, ACL 사용자명, TLS 및 환경 설정을 연결을 다시 사용할 수 있도록 기기에 저장합니다.</li><li><strong>비밀번호:</strong> 입력한 비밀번호는 iOS Keychain 또는 Android Keystore로 보호되는 암호화 저장소에 보관합니다. 연결 인증 시 비밀번호를 메모리에서 읽어 해당 서버로 전송합니다.</li><li><strong>조회 결과 및 편집 내용:</strong> 키·값, 쿼리 결과, 콘솔 기록 및 저장 전 편집 내용은 실행 중 메모리에서 처리합니다. 앱은 이 내용을 개발자 서버로 업로드하거나 앱 파일로 자동 저장하지 않습니다. 운영체제의 앱 전환 화면, 사용자가 만든 스크린샷 및 클립보드는 운영체제 설정의 적용을 받습니다.</li></ul>
+<h2>3. 네트워크 전송 및 외부 처리</h2>
+<p>앱은 사용자가 지정한 서버에 인증 정보, 키 이름, 명령, 쿼리 실행에 필요한 조회 요청 및 저장할 값을 전송하고 응답을 받습니다. 서버 운영자는 연결 IP 주소와 명령·데이터를 서버 정책에 따라 처리하거나 기록할 수 있습니다. 원격 서버의 보관·삭제 정책은 해당 운영자에게 확인해야 합니다.</p>
+<p>TLS를 켜면 기기가 신뢰하는 인증서와 호스트 이름을 검증합니다. 일반 TCP 연결은 전송을 암호화하지 않으므로 신뢰할 수 있는 네트워크에서 사용해야 합니다. Redish에는 광고·추적 또는 제3자 분석 SDK가 없습니다.</p>
+<p>앱에서 정책 링크를 열면 외부 브라우저가 이 웹사이트에 접속합니다. 페이지 제공 및 보안을 위해 호스팅 제공자가 IP 주소, 요청 시각, 브라우저·기기 정보 등 일반 웹 요청 정보를 처리할 수 있습니다. 이 페이지 자체는 광고, 분석 스크립트, 자체 쿠키 또는 로컬 저장소를 사용하지 않습니다. 호스팅 서비스의 처리는 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub 개인정보 처리방침</a>의 적용을 받을 수 있습니다.</p>
+<h2>4. 보관 및 삭제</h2>
+<p>저장한 연결 프로필과 비밀번호는 사용자가 앱에서 해당 연결을 삭제할 때 제거됩니다. 앱의 설정 변경이나 프로필 삭제는 원격 서버의 데이터를 삭제하지 않습니다. 원격 키의 삭제·수정은 사용자가 명령을 실행했을 때 해당 서버에 적용됩니다.</p>
+<p>조회 결과와 작업 기록은 연결 변경·종료 또는 앱 프로세스 종료 시 메모리에서 해제됩니다. 저장 전 편집 내용은 저장 또는 버리기를 선택할 때까지 남을 수 있습니다. Android 앱 데이터 삭제는 기기 내 앱 저장소를 제거합니다. iOS Keychain 항목은 앱 삭제 후에도 남을 수 있으므로 기기에서 프로필을 제거하려면 앱 내 연결 삭제를 먼저 사용하세요. Redish 계정은 없으므로 별도 계정 탈퇴 절차는 없습니다.</p>
+<h2>5. 기기 권한 및 보호</h2>
+<p>네트워크 접근은 설정한 서버에 연결하기 위해 사용합니다. iOS에서는 로컬 네트워크 서버 접속 시 로컬 네트워크 권한을 요청할 수 있고, 사용자가 연결 잠금을 켠 경우 운영체제의 기기 인증을 사용합니다. Redish는 생체정보 원본에 접근하거나 저장하지 않습니다. Android 앱 백업은 비활성화되어 있습니다. 기기 잠금과 서버 ACL을 함께 사용하고 비밀번호와 서버 데이터를 다른 사람에게 공유하지 마세요.</p>
+<h2>6. 지원 요청 및 방침 변경</h2>
+<p>지원 이메일을 보내면 문의에 포함된 이메일 주소와 내용을 문의 처리에 사용합니다. 비밀번호, 인증서 개인키 또는 실제 고객 데이터를 보내지 마세요. 지원 관련 정보 삭제를 원하면 같은 연락처로 요청할 수 있습니다. 적용 가능한 의무 또는 진행 중인 요청 처리에 필요한 경우를 제외하고 요청에 따라 삭제합니다.</p>
+<p>데이터 처리 방식이 바뀌면 이 페이지와 앱에 포함된 방침을 업데이트하고 적용일을 표시합니다. 문의: <a href="mailto:hanu@han-q.io">hanu@han-q.io</a>.</p>
+</section>
+<hr>
+<section id="en" lang="en">
+<p class="meta">Privacy Policy · Effective October 19, 2026 · App version 0.1</p>
+<h1>Your server.<br>Your data.</h1>
+<div class="intro"><strong>Redish connects directly to Redis or Valkey servers you configure.</strong><p>The app has no Redish account, advertising SDK, analytics SDK, or diagnostic upload to a developer server. Connection credentials, commands, and data are sent to the server you choose.</p></div>
+<h2>1. Scope and contact</h2>
+<p>This policy covers the Redish iOS and Android apps and this policy page. Contact Redish about privacy, access or deletion requests, and support at <a href="mailto:hanu@han-q.io">hanu@han-q.io</a>.</p>
+<h2>2. Information stored or processed on your device</h2>
+<ul><li><strong>Connection profiles:</strong> server names, hosts, ports, database numbers, ACL usernames, TLS settings, and environment settings are saved so you can reconnect.</li><li><strong>Passwords:</strong> saved passwords are protected by iOS Keychain or storage encrypted using Android Keystore. The app reads credentials into memory and sends them to your server when authenticating.</li><li><strong>Results and edits:</strong> keys, values, query results, console history, and unsaved edits are processed in memory. The app does not automatically save them to app files or upload them to a developer server. System app previews, screenshots you create, and clipboard contents are governed by operating-system settings.</li></ul>
+<h2>3. Network connections and other services</h2>
+<p>Redish sends authentication details, key names, commands, read requests used to execute queries, and values you choose to save to your configured server. Your server operator may log your connection IP, commands, and data according to its own policies. Contact that operator about remote retention and deletion.</p>
+<p>TLS connections validate the certificate and hostname using device trust. Plain TCP does not encrypt data in transit and should be used only on a trusted network. The app has no advertising, tracking, or third-party analytics SDK.</p>
+<p>Opening the policy link uses an external browser. To deliver and secure the page, the hosting provider may process IP addresses, request times, and browser or device information. This page itself uses no advertising or analytics scripts, own cookies, or local storage. Hosting services may be subject to the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub General Privacy Statement</a>.</p>
+<h2>4. Retention and deletion</h2>
+<p>Saved profiles and passwords are removed when you delete the connection in the app. Editing settings or deleting a profile does not delete remote server data. Commands you execute to modify or delete keys take effect on that server.</p>
+<p>Results and session history are released when the connection changes, disconnects, or the app process ends. Unsaved edits may remain until saved or discarded. Clearing Android app data removes local app storage. iOS Keychain entries may survive app removal; delete saved connections inside the app first to remove their credentials. There is no Redish account to delete.</p>
+<h2>5. Permissions and protection</h2>
+<p>Network access is used to reach your configured servers. iOS may request local network access for local servers and uses system device authentication if you enable connection locking. Redish does not access or store raw biometric data. Android app backups are disabled. Use a device lock and appropriate server ACLs, and keep credentials and server data private.</p>
+<h2>6. Support and changes</h2>
+<p>If you email support, your email address and message are used to handle your request. Do not send passwords, private keys, or real customer data. You can request deletion of support information at the same address; it will be deleted unless needed for an applicable obligation or an ongoing request.</p>
+<p>When data handling changes, we will update this page and the policy bundled with the app and show the effective date. Contact: <a href="mailto:hanu@han-q.io">hanu@han-q.io</a>.</p>
+</section>
+</main>
+<footer>Redish · Redis &amp; Valkey client<br><a href="mailto:hanu@han-q.io">hanu@han-q.io</a> · <a href="#ko">개인정보 처리방침</a> · <a href="#en">Privacy Policy</a></footer>
+</body></html>
